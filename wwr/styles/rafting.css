@@ -131,7 +131,7 @@ p {
 .history div img {
     width: 100%;
     justify-self: center;
-    align-self: top;
+    align-self: start;
 }
 
 .adventuresection {
@@ -153,7 +153,7 @@ p {
 .adventurepic {
     width: 75%;
     justify-self: center;
-    align-self: center;
+    align-self: start;
 }
 
 figure img {
