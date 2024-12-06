@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adam Lind">
+    <meta
+        name="description"
+        content="W03 River Rafting contact page.">
+    <title>Contact Us - White Water Extreme</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+  </head>
+  <body>
+    <header>
+        <img src="images/logo.png" alt="Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contactUs">
+            <h2>Contact Us</h2>
+            <div class="contactInfoContainer">
+                <div class="contactInfo">
+                    <h1>Address: 154 Someplace, ID, 12345</h1>
+                    <h1>Phone: 123-456-7890</h1>
+                    <h1>Email: extremewhitewater@yahoo.com</h1>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d46724.208264528184!2d-115.31121053896915!3d42.95166147974367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1733439695235!5m2!1sen!2sus" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="employees">
+            <h2>Meet our team</h2>
+            <div class="employeePicsContainer">
+                <figure>
+                    <img class="employeePics" src="images/employee1-min.jpg" alt="smiling employee 1">
+                    <figcaption class="employeeCaptions">David - The Polar Bear <br>Experience: 22 Years</figcaption>
+                </figure>
+                <figure>
+                    <img class="employeePics" src="images/employee2-min.jpg" alt="smiling employee 2">
+                    <figcaption class="employeeCaptions">James - The Adventurous<br>Experience: 7 Years</figcaption>
+                </figure>
+                <figure>
+                    <img class="employeePics" src="images/employee3-min.jpg" alt="smiling employee 3">
+                    <figcaption class="employeeCaptions">Meagan - The Trustworthy<br>Experience: 5 Years</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="messageUs">
+            <h2>Message us</h2>
+            <form class="messageForm">
+                <div class="formGeneralContainer">
+                    <input class="formGeneralInfo" type="text" id="fname" name="fname" placeholder="First Name">
+                    <input class="formGeneralInfo" type="text" id="lname" name="lname" placeholder="Last Name">
+                    <input class="formGeneralInfo" type="text" id="email" name="email" placeholder="Email">
+                </div>
+
+                <p>Select the reason for your message:<br></p>
+                <div class="messageReasonContainer">
+                    <input type="radio" id="general" name="messageReason" value="General Inquiry">
+                    <label for="general">General Inquiry</label><br>
+                    <input type="radio" id="reservation" name="messageReason" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" id="suggestion" name="messageReason" value="Website Suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+
+                <textarea class="formMessageSection" id="message" name="message" rows="4" cols="50" placeholder="Type your message here"></textarea>
+
+                <div class="subscription">
+                    <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
+                    <label for="subscribe"> Please subscribe me to the monthly newsletter</label><br>
+                </div>
+                <input class="submitButton" type="button" onclick="SubmitEvent" value="Send!">
+              </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>© 2024 ♦️ White Water Extreme ♦️ United States of America</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com" class="sociallink">
+                <img src="images/fb_logo.png" alt="Facebook" class="sociallinkimg">
+            </a>
+            <a href="https://X.com" class="sociallink">
+                <img src="images/X_logo.png" alt="X Logo" class="sociallinkimgx">
+            </a>
+            <a href="https://instagram.com" class="sociallink">
+                <img src="images/insta_logo.png" alt="Instagram" class="sociallinkimg">
+            </a>
+        </nav>
+    </footer>
+
+  </body>
+</html>
