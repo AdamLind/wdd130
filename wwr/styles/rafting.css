@@ -330,9 +330,9 @@ footer {
 .wireLink {
     color: black;
     align-self: center;
-    margin-left: 500px;
-    margin-right: 500px;
+    justify-self: center;
     text-align: center;
+    width: 300px;
     font-size: 30px;
     background-color: var(--accent1-color);
     border: 2px solid var(--secondary-color);
