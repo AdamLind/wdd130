@@ -327,7 +327,7 @@ footer {
     height: 75px;
 }
 
-.wireLink {
+footer .wireLink {
     color: black;
     align-self: center;
     margin-left: 500px;
