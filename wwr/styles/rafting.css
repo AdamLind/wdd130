@@ -641,3 +641,7 @@ th {
     background-color: var(--primary-color);
     color: white;
 }
+
+button:hover {
+    cursor: pointer;
+}
